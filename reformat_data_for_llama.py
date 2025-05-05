@@ -1,8 +1,8 @@
 import json
 
 # Input and output file paths
-input_file = "./data/cybersecurity/ilab_generated/test_gen.jsonl"
-output_file = "test_gen.jsonl"
+input_file = "./data/cybersecurity/ilab_generated/train_gen.jsonl"
+output_file = "train_gen.jsonl"
 
 # Read from original JSONL and reformat
 with open(input_file, "r", encoding="utf-8") as infile, open(output_file, "w", encoding="utf-8") as outfile:
